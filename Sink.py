@@ -2,7 +2,7 @@ import serial
 import time
 import os
 from socket import *
-host = "192.168.43.224" # set to IP address of target computer
+host = "192.168.43.224"
 port = 13000
 addr = (host, port)
 UDPSock = socket(AF_INET, SOCK_DGRAM)
